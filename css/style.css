@@ -29,7 +29,7 @@ header {
 	justify-content:center;
 	align-items:center;
 	width:100vw;
-	height:10vh;
+	height:50px;
 	position:fixed;
 }
 .logo {
@@ -77,7 +77,7 @@ main {
 	z-index:-1;
 }
 .main-content {
-	padding:12vh 4vw 12vh 4vw;
+	padding:60px 4vw 12vh 4vw;
 	margin:auto;
 	display:block;
 	width:70%;
@@ -118,7 +118,7 @@ main {
 }
 
 #team {
-	padding-top:12vh;
+	padding-top:50px;
 }
 .row {
 	display:flex;
@@ -174,7 +174,7 @@ main {
 }
 
 #submit {
-	padding-top:12vh;
+	padding-top:50px;
 }
 #submit h1 {
 	width:100%;
@@ -188,12 +188,14 @@ main {
 #submit .row .col-6 {
 	padding:0;
 	margin:auto 8px;
+	margin-top:0;
 	border:0;
 	border-radius:3%;
 	box-shadow:1px 1px 3px grey;
 	flex:1;
 	justify-content:center;
-	height:250px;
+	min-height:250px;
+
 }
 .gmail {
 	width:70px;
@@ -259,4 +261,21 @@ main {
 #formSubmit button {
 	font-weight:bold;
 	color:white;
+}
+#formSubmit select, #formSubmit label, #formSubmit option {
+	outline:none;
+}
+#formSubmit label {
+	width:100%;
+	padding:8px 8px 0 8px;
+	margin-bottom:0;
+	opacity:.7;
+	text-align:left;
+}
+#formSubmit select {
+	width:100%;
+	padding:8px;
+	text-align:center;
+	border:1px solid rgba(0,0,0,0.1);
+	color:#000;
 }
