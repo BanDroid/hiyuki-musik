@@ -1,0 +1,262 @@
+﻿html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	/*background:#efefef;*/
+	font-size:18px;
+	background-image:url("https://wallpapercave.com/wp/wp4920554.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:center;
+}
+
+header {
+	padding:8px 10vw 8px 15vw;
+	margin:0;
+	background:#FF8FF2;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100vw;
+	height:10vh;
+	position:fixed;
+}
+.logo {
+	flex:1;
+	font-weight:400;
+	align:left;
+}
+.logo h1 {
+	font-size:2rem;
+	margin:auto auto auto 0;
+	cursor:pointer;
+	width:12vw;
+	text-align:center;
+}
+.nav-link {
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+}
+.nav-item {
+	margin:0 0 0 16px;
+	padding:8px 16px;
+	background:#F558E1;
+	border-radius:20px;
+	font-size:.8rem;
+	text-decoration:none;
+	color:#fff;
+	transition:.7s;
+	transition-property:color;
+}
+a {
+	text-decoration:none;
+}
+.nav-item:hover {
+	color:#20E8E8;
+}
+
+main {
+	width:100vw;
+	height:auto;
+	position:absolute;
+	top:0;
+	z-index:-1;
+}
+.main-content {
+	padding:12vh 4vw 12vh 4vw;
+	margin:auto;
+	display:block;
+	width:70%;
+	height:auto;
+	background:#fff;
+}
+.profile {
+	padding:0;
+	margin:0;
+	display:block;
+	width:100%;
+}
+.profile img {
+	width:200px;
+	height:200px;
+	border-radius:20%;
+	margin-bottom:8px;
+}
+.profile h4 {
+	display:block;
+	width:100%;
+	text-align:center;
+}
+.social-media {
+	display:flex;
+	width:100%;
+	text-align:center;
+}
+.social-media a {
+	font-size:40px;
+	text-decoration:none;
+	color:#000;
+	flex:1;
+	transition:.4s;
+}
+.social-media a:hover {
+	transform:scale(1.2);
+}
+
+#team {
+	padding-top:12vh;
+}
+.row {
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+}
+.col h4 {
+	background:#cfcfcf;
+	margin-top:2vh;
+}
+.member {
+	padding:8px;
+	margin:1vh 1vw;
+	min-width:25vw;
+	background:#494A4A;
+	color:white;
+	height:auto;
+	border-radius:30px;
+	box-shadow:2px 2px 3px grey;
+}
+.member h5 {
+	font-size:18px;
+}
+.member img {
+	width:100px;
+	height:100px;
+	border:1px solid pink;
+	border-radius:50%;
+	margin:0 0 16px 0;
+	outline:none;
+}
+.member button {
+	padding:3px;
+	font-size:16px;
+	max-width:60%;
+	min-height:50px;
+}
+.sosmedid div {
+	display:flex;
+	margin:auto;
+}
+.sosmedid .sosmed {
+	padding:8px 0;
+	font-size:20px;
+	margin:8px auto;
+	flex:1;
+	color:white;
+	transition:.4s;
+}
+.sosmedid .sosmed:hover {
+	transform:scale(1.3);
+}
+
+#submit {
+	padding-top:12vh;
+}
+#submit h1 {
+	width:100%;
+	font-size:32px;
+	text-align:center;
+	margin-bottom:8vh;
+}
+#submit .row {
+	display:flex;
+}
+#submit .row .col-6 {
+	padding:0;
+	margin:auto 8px;
+	border:0;
+	border-radius:3%;
+	box-shadow:1px 1px 3px grey;
+	flex:1;
+	justify-content:center;
+	height:250px;
+}
+.gmail {
+	width:70px;
+	height:70px;
+}
+.form {
+	width:65px;
+	height:auto;
+	padding:10px;
+	margin-right:5px;
+}
+#submit .row .col-6 h4 {
+	width:100%;
+	padding:8px;
+	margin:0 0 8px 0;
+	text-align:center;
+	background:#FF8FF2;
+	border-radius:3px 3px 0 0;
+	color:white;
+}
+#submit .row .col-6 p {
+	display:flex;
+	width:auto;
+	padding:8px;
+	margin:auto;
+	align-items:center;
+	min-height:80px;
+	max-height:90px;
+}
+#submit .row .col-6 p:hover {
+	cursor:pointer;
+}
+.separating {
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+#formSubmit {
+	
+}
+#formSubmit input, #formSubmit textarea, #formSubmit button {
+	display:block;
+	width:90%;
+	padding:8px;
+	margin:8px auto;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+	font-size:.9em;
+	outline:none;
+	border:0;
+	color:#333;
+}
+#formSubmit textarea {
+	resize:none;
+}
+#formSubmit hr {
+	padding:0;
+	margin:0;
+}
+#formSubmit button {
+	font-weight:bold;
+	color:white;
+}
