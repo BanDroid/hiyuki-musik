@@ -32,7 +32,7 @@
             <ul class="nav-link">
                 <li><a href="#home" class="nav-item">Home</a></li>
                 <li><a href="#team" class="nav-item">Team</a></li>
-                <li><a href="#" class="nav-item">Submit</a></li>
+                <li><a href="#submit" class="nav-item">Submit</a></li>
                 <li><a href="#" class="nav-item">Contact Us</a></li>
             </ul>
         </nav>
@@ -344,7 +344,15 @@
                         
                         <form action="" id="formSubmit">
 
+                            <input type="email" name="email" placeholder="Your Email"><hr>
                             <input type="text" name="namestage" placeholder="Your Namestage"><hr>
+                            <input type="text" name="title" placeholder="Title"><hr>
+                            <input type="text" name="genre" placeholder="Genre"><hr>
+                            <label for="option">Choose submit option :</label><br>
+                                <select name="option" id="option">
+                                <option value="promotion">Promotion</option>
+                                <option value="submit-label">Submit Label</option>
+                                </select><hr>
                             <input type="url" name="linksc" placeholder="SoundCloud Private link"><hr>
                             <textarea name="description" placeholder="Put any description"></textarea><hr>
                             <button type="submit" class="btn btn-primary" >SEND</button>
